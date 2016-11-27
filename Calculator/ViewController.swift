@@ -12,8 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var lblNumber: UILabel!
 
-
-    var value : String = "0"
+    var result : String = "0"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,11 +22,54 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+
+    @IBAction func tapNumberButtons(_ sender: UIButton) {
+
+    }
+
+    @IBAction func floatingPoint(_ sender: UIButton) {
+
+    }
+
+    @IBAction func clear(_ sender: UIButton) {
+        result = "0"
+    }
+
+    @IBAction func minus(_ sender: UIButton) {
+
+    }
+
+    @IBAction func deleteLastChar(_ sender: UIButton) {
+
+    }
+
+    @IBAction func divide(_ sender: UIButton) {
+
+    }
+
+    @IBAction func multiply(_ sender: UIButton) {
+
+    }
+
+    @IBAction func substract(_ sender: UIButton) {
+
+    }
+
+    @IBAction func add(_ sender: UIButton) {
+
+    }
+
+    @IBAction func equals(_ sender: UIButton) {
+
+    }
+
+    private func appendValue(char: Character) {
+
     }
 
     private func showValue() {
-        lblNumber.text = value
+        lblNumber.text = result
     }
 }
 
