@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var lblNumber: UILabel!
+
+
+    var value : String = "0"
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        showValue()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +26,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    private func showValue() {
+        lblNumber.text = value
+    }
 }
 
