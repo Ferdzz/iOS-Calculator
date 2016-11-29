@@ -57,7 +57,7 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
-                                            <action selector="equals:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="rcO-H6-FLf"/>
+                                            <action selector="equals" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsp-j8-7Nw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIB-Wn-Tuy">
@@ -145,7 +145,7 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
-                                            <action selector="clear:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="vXB-W0-DWQ"/>
+                                            <action selector="clear" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3w-cL-EUV"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNU-8R-VdO">
